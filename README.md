@@ -1,14 +1,16 @@
-# Pretty quickfix windows for vim
+# Pretty quickfix for vim
 
 vim-pqf makes your quickfix and location list windows look nicer, thanks to a
 combination of a custom `quickfixtextfunc` function and custom syntax rules for
 quickfix/location list buffers.
 
+The goal of this fork is to improve upon [prettier_qf](https://github.com/xuanduc987/prettier_qf) while remaining compatible with vim8 & neovim.
+
 ## Features
 
-- Better highlights for line and column numbers
-- Item types use the same signs as vim's diagnostic signs
-- Entries are left-aligned so they always start at the same column
+* Better highlights for line and column numbers
+* Highlights for the item type (error, warning, etc)
+* Entries are left-aligned so they always start at the same column
 
 ## Installation
 
@@ -35,7 +37,8 @@ let g:pqf_signs = {
 ```
 
 ## Credits
-* [nvim-pqf](https://gitlab.com/yorickpeterse/nvim-pqf)
+* [yorickpeterse](https://gitlab.com/yorickpeterse)
+* [xuanduc987](https://github.com/xuanduc987)
 
 ## License
 
