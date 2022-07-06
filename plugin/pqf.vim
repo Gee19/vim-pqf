@@ -1,0 +1,1 @@
+set quickfixtextfunc=pqf#quickfixtextfunc
